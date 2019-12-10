@@ -19,6 +19,61 @@ img {
   display: none;
 }
 
+h1 {
+  font-family: gill-sans-nova,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+p {
+  font-family: gill-sans-nova,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.current_home {
+  font-family: gill-sans-nova,sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+/*
+font-family: gill-sans-nova,sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: gill-sans-nova,sans-serif;
+font-weight: 700;
+font-style: italic;
+
+font-family: gill-sans-nova,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: gill-sans-nova,sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: gill-sans-nova,sans-serif;
+font-weight: 300;
+font-style: normal;
+
+font-family: gill-sans-nova,sans-serif;
+font-weight: 300;
+font-style: italic;
+
+font-family: gill-sans-nova,sans-serif;
+font-weight: 600;
+font-style: normal;
+
+font-family: gill-sans-nova,sans-serif;
+font-weight: 600;
+font-style: italic;
+
+font-family: adobe-handwriting-ernie,sans-serif;
+font-weight: 400;
+font-style: normal;
+ */
+
 @media only screen and (min-width: 600px){
   .mobile_only{
     display: none;
