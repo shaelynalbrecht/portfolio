@@ -7,19 +7,31 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/laj3tbc.css">
     <link rel="stylesheet" href="https://use.typekit.net/laj3tbc.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/cuv5htm.css">
   </head>
   <body>
     <header>
-      <nav>
-        <a href="index.html">Portfolio</a>
-        <a href="about.html">About</a>
-        <a href="fun.html" class="current_home">Fun</a>
-      </nav>
+      <a href="index.html"><img src="images/joy_capital.png" alt="Shaelyn Joy Albrecht" class="not_mobile"/></a>
+      <div id="links">
+        <nav>
+          <a href="index.html">Portfolio</a>
+          <a href="about.html">About</a>
+          <a href="fun.html" class="current_home">Fun</a>
+        </nav>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" id='js-navbar-toggle' onclick="hamburgerFunction()" aria-label="hamburger menu icon">
+            <i class="fa fa-bars"></i>
+          </a>
     </header>
     <main>
 
     </main>
     <footer>
     </footer>
+    <script src = "js/hamburger.js"></script>
+
   </body>
 </html>
