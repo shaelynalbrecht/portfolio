@@ -8,6 +8,8 @@ function hamburgerFunction() {
     x.style.display = "flex";
     x.style.flexDirection = "column";
     x.style.marginTop = "10%";
+    x.style.paddingBottom = "5%";
+    x.childNodes[0].style.paddingBottom = "20%";
   }
 }
 

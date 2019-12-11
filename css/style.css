@@ -15,6 +15,11 @@ img {
   max-height: 50vh;
 }
 
+img.mobile_only {
+  align-self: center;
+  margin-left: 20%;
+}
+
 .not_mobile{
   display: none;
 }
@@ -123,6 +128,14 @@ font-style: normal;
 }
 
 @media only screen and (min-width: 768px){
+  /* Style the hamburger menu */
+    nav a.icon {
+      display: none;
+    }
+    nav, #links{
+      display: flex;
+      flex-direction: row;
+    }
 }
 
 @media only screen and (min-width: 1024px){
