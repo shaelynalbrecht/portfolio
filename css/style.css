@@ -42,7 +42,7 @@ p {
   font-style: italic;
 }
 
-nav {
+nav, .page_links {
   display: flex;
   flex-direction: column;
 }
@@ -55,6 +55,7 @@ nav a {
   color: #000000;
   padding-left: 1%;
   padding-right: 1%;
+  padding-bottom: 2%;
   text-align: center;
 }
 
@@ -79,63 +80,59 @@ nav a.icon {
   margin: 2%;
   margin-bottom: 3%;
 }
-/* fonts for reference!
-font-family: gill-sans-nova,sans-serif;
-font-weight: 700;
-font-style: normal;
 
-font-family: gill-sans-nova,sans-serif;
-font-weight: 700;
-font-style: italic;
-
-font-family: gill-sans-nova,sans-serif;
-font-weight: 400;
-font-style: normal;
-
-font-family: gill-sans-nova,sans-serif;
-font-weight: 400;
-font-style: italic;
-
-font-family: gill-sans-nova,sans-serif;
-font-weight: 300;
-font-style: normal;
-
-font-family: gill-sans-nova,sans-serif;
-font-weight: 300;
-font-style: italic;
-
-font-family: gill-sans-nova,sans-serif;
-font-weight: 600;
-font-style: normal;
-
-font-family: gill-sans-nova,sans-serif;
-font-weight: 600;
-font-style: italic;
-
-font-family: adobe-handwriting-ernie,sans-serif;
-font-weight: 400;
-font-style: normal;
- */
 
 @media only screen and (min-width: 600px){
   .mobile_only{
     display: none;
   }
 
-  .not_mobile{
-    display: inline-flex;
+  .page_links {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
   }
-}
 
-@media only screen and (min-width: 768px){
   /* Style the hamburger menu */
     nav a.icon {
       display: none;
     }
-    nav, #links{
+    /* nav, #links{
       display: flex;
       flex-direction: row;
+    } */
+
+    /* nav a {
+      padding: 2%;
+    } */
+
+    .not_mobile{
+      display: block;
     }
+
+    /* div.page_links a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    } */
+
+    #links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2vh;
+    }
+
+    div.page_links a {
+      padding: 5vw;
+      justify-content: center;
+      margin-right: 10vw;
+    }
+}
+
+@media only screen and (min-width: 768px){
+
 }
 
 @media only screen and (min-width: 1024px){

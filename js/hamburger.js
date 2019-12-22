@@ -9,7 +9,6 @@ function hamburgerFunction() {
     x.style.flexDirection = "column";
     x.style.marginTop = "10%";
     x.style.paddingBottom = "5%";
-    x.childNodes[0].style.paddingBottom = "20%";
   }
 }
 
@@ -20,9 +19,9 @@ function displayNav(){
   var winWidth = window.innerWidth;
   console.log(winWidth);
   var x = document.getElementById("links");
-  if (winWidth > 768){
+  if (winWidth > 600){
     x.style.display = "flex";
-    x.style.flexDirection = "row";
+    x.style.flexDirection = "column";
     x.style.marginTop = "0%";
   }
   else {
