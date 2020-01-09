@@ -1,139 +1,32 @@
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+main {
+  margin-top: 5vh;
 }
 
-html {
-  height: 100vh;
+.container {
+  padding-top: 5vh;
 }
 
-img {
-  max-width: 50vw;
-  max-height: 50vh;
-}
-
-img.mobile_only {
-  align-self: center;
-  margin-left: 20%;
-}
-
-.not_mobile{
-  display: none;
-}
-
-h1 {
+.nova-light {
   font-family: gill-sans-nova,sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
-p {
+.nova-semibold {
   font-family: gill-sans-nova,sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-style: normal;
 }
 
-.current_home {
+.nova-semibold-italic {
   font-family: gill-sans-nova,sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-style: italic;
 }
 
-nav, .page_links {
-  display: flex;
-  flex-direction: column;
-}
-
-nav a {
-  font-family: gill-sans-nova,sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  text-decoration: none;
-  color: #000000;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-bottom: 2%;
-  text-align: center;
-}
-
-/* Style the navigation menu */
-#links {
-  overflow: hidden;
-  position: relative;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-#links {
-  display: none;
-}
-
-/* Style the hamburger menu */
-nav a.icon {
-  background: transparent;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin: 2%;
-  margin-bottom: 3%;
-}
-
-
-@media only screen and (min-width: 600px){
-  .mobile_only{
-    display: none;
-  }
-
-  .page_links {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
-
-  /* Style the hamburger menu */
-    nav a.icon {
-      display: none;
-    }
-    /* nav, #links{
-      display: flex;
-      flex-direction: row;
-    } */
-
-    /* nav a {
-      padding: 2%;
-    } */
-
-    .not_mobile{
-      display: block;
-    }
-
-    /* div.page_links a {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    } */
-
-    #links {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 2vh;
-    }
-
-    div.page_links a {
-      padding: 5vw;
-      justify-content: center;
-      margin-right: 10vw;
-    }
-}
-
-@media only screen and (min-width: 768px){
-
-}
-
-@media only screen and (min-width: 1024px){
+h1 {
+  padding-top: 5vh;
+  padding-left: 2vh;
+  padding-bottom: 5vh;
+  background-color: #8CD9EA;
 }
