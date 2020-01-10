@@ -55,7 +55,7 @@ h1, #typewriter {
 }
 
 .social {
-  height: 5vh;
+  height: 1vh;
 }
 
 footer p {
@@ -96,4 +96,10 @@ footer {
   position: absolute;
  bottom: 0;
  width: 100%;
+}
+
+@media screen and (min-width: 800){
+  .social {
+    height: 5vh;
+  }
 }
