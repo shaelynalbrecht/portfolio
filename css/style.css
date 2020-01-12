@@ -220,10 +220,6 @@ h1.about-shae, h1.portfolio-title {
   padding-top: 1vh;
 }
 
-.bluebg {
-  background-color: #8CD9EA;
-}
-
 .story {
   padding-bottom: 2vh;
 
@@ -232,6 +228,44 @@ h1.about-shae, h1.portfolio-title {
 .shae-img {
   margin-bottom: 2vh;
 }
+
+.probflower {
+  display: inline;
+  width: 10%;
+}
+
+.the-prob p {
+  font-size: 4vh;
+  text-align: center;
+}
+
+.the-prob h3, .the-goal h3 {
+  text-align: center;
+}
+
+.the-goal p{
+  font-size: 4vh;
+  text-align: center;
+}
+
+.the-prob {
+  border-right-style: none;
+  border-top-right-radius: 0px;
+  border-bottom-style: none;
+  border-bottom-left-radius: 0px;
+}
+
+.the-goal {
+  border-left-style: none;
+  border-top-right-radius: 0px;
+  border-top-style: none;
+  border-bottom-left-radius: 0px;
+}
+
+.spacing {
+  margin-bottom: 2vh;
+}
+
 @media screen and (min-width: 800){
   .social {
     height: 5vh;
