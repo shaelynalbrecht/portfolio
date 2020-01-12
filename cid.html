@@ -47,22 +47,22 @@
         </div>
 
         <div class="row skillsum justify-content-center">
-          <div class="col-sm">
+          <div class="col-sm blueborder">
             <h4>Project Timeline</h4>
             <p>9-week fellowship throughout May and June of 2018. I worked 20 hours per week alongside a Master's student who worked on the project full-time</p>
           </div>
-          <div class="col-sm-2">
+          <div class="col-sm-2 blueborder">
             <h4>Tools</h4>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled nova-light">
               <li>Sketch</li>
               <li>Marvel</li>
               <li>Python</li>
               <li>Plotly</li>
             </ul>
           </div>
-          <div class="col-sm">
+          <div class="col-sm blueborder">
             <h4>Skills</h4>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled nova-light">
               <li>Conducting Interviews</li>
               <li>Affinity Mapping</li>
               <li>Survey Design</li>
@@ -81,22 +81,26 @@
             <p>As a CID Junior Fellow, I partnered with the Ann Arbor City Clerk’s Office to explore how the city could expedite line management and improve the voter experience, particularly in on-campus precincts. The School of Information did a short story on my internship; check it out by clicking the button below!</p>
             <a class="btn btn-primary mx-auto hvr-float-shadow story" style="width: 200px; background-color: #8CD9EA; border-style: none;" href="https://www.si.umich.edu/news-events/people-profiles/faces-umsi/shaelyn-albrecht" role="button" target="_blank">Read the story</a>
           </div>
-          <div class="col-sm-7">
+          <div class="col-sm-7 shae-img">
             <img src="images/cid/Shaelyn_Albrecht_01.JPG" class="img-fluid"/>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col align-self-center">
+        <div class="row bluebg">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
             <h3>The Problem</h3>
             <p>In the 2016 elections, voting wait times at on-campus precincts greatly exceeded the 30 minute time limit recommended by the government. </p>
           </div>
+          <div class="col-sm-2"></div>
         </div>
-        <div class="row align-self-center">
-          <div class="col">
+        <div class="row bluebg">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
             <h3>The Goal</h3>
             <p>Throughout the 9-week internship, the goal was to design a solution that would both help better understand voter turnout behavior and use technology to manage lines.</p>
           </div>
+          <div class="col-sm-2"></div>
         </div>
 
 
@@ -104,13 +108,13 @@
         <p>My project partner and I constantly bounced ideas off each other. Before diving into the process, we had a brainstorming session where no idea was too crazy; we considered all possibilities, and we also looked at how other places handle lines. For example, Disney sends characters around to entertain guests while waiting in line; could we provide entertainment for the voters while they waited? Would voters want to use an app while waiting in line? Would some sort of technology aid the poll-workers in streamlining the voting process?</p>
         <p>Through conversations with the Ann Arbor Clerk, and after brainstorming, we knew there were two potential user groups we could design for: the voters themselves, or the poll-workers who work at the polling locations. We envisioned a tool where the voters would be able to check the line length before going to their precinct, but a barrier to this tool was the fact that the City did not have a data collection method for gathering the line length. Due to the brevity of the internship, it was vital to narrow the scope to one of these user groups, and we began to think about how a tool for the poll-workers could improve the overall voting experience.</p>
         <div class="row">
-          <div class="col">
+          <div class="col-sm-6">
             <h3>Working with Existing Data</h3>
             <p>The one form of technology that the city did use already was electronic poll-books (EPBs). The EPBs record the time that each voter checks in to the precinct.</p>
             <p>I wrote a Python program that read in timestamp data from the EPB audits and then used Plotly to produce histograms showing the number of people processed by the EPB per hour. This visualization was helpful because the number of people processed per hour relates to the number of people who were at the polls each hour. I was able to pass in a certain precinct's data and create a histogram, and I did this for several different precincts.</p>
             <p>The Clerk's office was surprised by some of the peaks in the histograms; they weren't always at the times that the office had been publicly saying were the busiest, so this insight highlighted how certain precincts might have very different profiles from others.</p>
           </div>
-          <div class="col">
+          <div class="col-sm-6">
             <img src="images/cid/python_graph.png" class="img-fluid"/>
           </div>
         </div>
